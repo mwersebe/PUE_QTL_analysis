@@ -1,0 +1,21 @@
+#South Center F2 QTL analysis.
+#For R/Qtl2 
+crosstype: f2
+geno: SouthCenter_genotypes.csv
+pheno: SouthCenter_phenotypes.csv
+covar: SouthCenter_covar.csv
+gmap: SouthCenter_genetic.csv
+pmap: SouthCenter_physical.csv
+geno_transposed: true
+alleles:
+- A
+- B
+genotypes:
+ AA: 1
+ AB: 2
+ BB: 3
+cross_info:
+ covar: cross_direction
+ (AxB)x(AxB): 0
+na.strings:
+- NA
